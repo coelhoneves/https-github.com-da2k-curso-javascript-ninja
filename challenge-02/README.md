@@ -44,7 +44,7 @@ function Newfuncao(value1,value2,value3){
     if (value1 == undefined || value2 == undefined || value3 == undefined){
       return "Preencha todos os valores corretamente!";
     } else {
-      return (value1 * value2 * +value3) + 2;
+      return (value1 * value2 * value3) + 2;
     }
   }
 
